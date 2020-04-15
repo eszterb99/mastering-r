@@ -1,6 +1,7 @@
 library(binancer)
 library(jsonlite)
 library(logger)
+library(checkmate)
 
 BITCOINS <- 0.42
 log_info('Number of bitcoins {BITCOINS}')
